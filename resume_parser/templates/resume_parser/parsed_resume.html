@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsed Resume</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image: url("{% static 'background5.jpg' %}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.464); 
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0 auto;
+            width: fit-content;
+        }
+        h1 {
+            text-align: center;
+        }
+        .submit-container {
+            background-color: rgba(0, 128, 0, 0.747);
+            color: rgba(9, 9, 9, 0);
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 30px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <h1>List of Uploaded PDFs</h1>
+        <form action="{% url 'parsed_results' %}" method="post">
+            {% csrf_token %}
+            
+            <input type="checkbox" id="select-all">
+            <label for="select-all">Select All</label>
+            <ul>
+                {% for pdf_name, pdf_url in pdf_list %}
+                    <li>
+                        <input type="checkbox" name="selected_pdfs" value="{{ pdf_url }}"> 
+                        <a href="{{ pdf_url }}" target="_blank">{{ pdf_name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <input type="text" name="skills" placeholder="Skills">
+            <input type="text" name="qualifications" placeholder="Qualifications">
+            <div class="submit-container">
+                <button type="submit">Parse Selected PDFs</button>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        @ Resume Parser 2024. All rights reserved.
+    </div>
+
+    <script>
+        document.getElementById('select-all').addEventListener('change', function() {
+            var checkboxes = document.querySelectorAll('input[name="selected_pdfs"]');
+            for (var i = 0; i < checkboxes.length; i++) {
+                checkboxes[i].checked = this.checked;
+            }
+        });
+    </script>
+</body>
+</html>

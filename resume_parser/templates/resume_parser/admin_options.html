@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Options</title>
+    <style>
+        body {
+            background-image: url("{% static 'background2.jpg' %}");
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px; 
+        }
+        .options-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px; 
+        }
+        .option {
+            margin: 0 10px;
+            background-color: #a9a9a9; /* Ash grey */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        h1 {
+            color: white; /* Changed heading color to white */
+            font-size: 50px;
+        }
+        .footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Options</h1>
+        <div class="options-container">
+            <div class="option">
+                <a href="{% url 'admin_login' %}" class="button">Login as Superuser</a>
+            </div>
+            <div class="option">
+                <a href="{% url 'parse_resume_login' %}" class="button">Login to Parse Resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        @ Resume Parser 2024. All rights reserved.
+    </div>
+</body>
+</html>

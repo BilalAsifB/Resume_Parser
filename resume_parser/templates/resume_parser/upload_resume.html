@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("{% static 'background3.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }        
+
+        h1 {
+            background-color: rgba(0, 0, 0, 0.568);
+            color: rgb(255, 255, 255);
+            margin-top: 50px; 
+            font-size: 50px;
+        }
+        .footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        form {
+            margin-top: 50px; 
+            display: inline-block;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); 
+            border-radius: 10px;
+        }
+
+        form button {
+            margin-top: 20px; 
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+        <h1>Upload Your Resume</h1>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+</body>
+    <div class="footer">
+        @ Resume Parser 2024. All rights reserved.
+    </div>
+</html>

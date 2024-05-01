@@ -1,0 +1,303 @@
+Level,Field,Qualification,Abbreviation
+High School,General,High School Diploma,HS Diploma
+High School,General,High School Certificate,HS Certificate
+High School,General,High School Graduation,HS Graduation
+High School,Technical,Vocational Certificate,Voc Cert
+High School,Technical,Technical Diploma,Tech Diploma
+High School,Technical,Trade School Graduation,Trade School Grad
+High School,Technical,High School Equivalency Diploma,GED
+High School,Technical,High School Vocational Certificate,HS Voc Cert
+High School,Technical,Technical High School Diploma,Tech HS Diploma
+High School,Technical,High School Vocational Diploma,HS Voc Diploma
+High School,Technical,Technical Trade School Certificate,Tech Trade Cert
+High School,Technical,Technical School Graduation Diploma,Tech School Grad Dip
+High School,Technical,Technical High School Equivalency Diploma,Tech HS GED
+High School,Technical,Trade School Vocational Diploma,Trade School Voc Diploma
+High School,Technical,Trade School Vocational Certificate,Trade School Voc Cert
+Undergraduate,Arts,Bachelors in Arts,BA
+Undergraduate,Arts,Bachelors in Fine Arts,BFA
+Undergraduate,Arts,Bachelors in Music,BM
+Undergraduate,Arts,Bachelors in Performing Arts,BPA
+Undergraduate,Arts,Bachelors in Humanities,BH
+Undergraduate,Arts,Bachelors in Liberal Arts,BLA
+Undergraduate,Arts,Bachelors in Visual Arts,BVA
+Undergraduate,Arts,Bachelors in Design,BDes
+Undergraduate,Arts,Bachelors in Fashion Design,BFD
+Undergraduate,Business,Bachelors in Business Administration,BBA
+Undergraduate,Business,Bachelors in Commerce,BCom
+Undergraduate,Business,Bachelors in Economics,BEcon
+Undergraduate,Business,Bachelors in Management,BMan
+Undergraduate,Business,Bachelors in Accountancy,BAcc
+Undergraduate,Business,Bachelors in Marketing,BMarketing
+Undergraduate,Business,Bachelors in Finance,BFin
+Undergraduate,Business,Bachelors in Entrepreneurship,BEnt
+Undergraduate,Business,Bachelors in International Business,BIB
+Undergraduate,Science,Bachelors in Science,BS
+Undergraduate,Science,Bachelors in Applied Science,BASc
+Undergraduate,Science,Bachelors in Engineering,BEng
+Undergraduate,Science,Bachelors in Technology,BTech
+Undergraduate,Science,Bachelors in Computer Science,BCS
+Undergraduate,Science,Bachelors in Environmental Science,BEnvSc
+Undergraduate,Science,Bachelors in Geology,BGeo
+Undergraduate,Science,Bachelors in Mathematics,BMath
+Undergraduate,Health,Bachelors in Nursing,BN
+Undergraduate,Health,Bachelors in Medicine,MBBS
+Undergraduate,Health,Bachelors in Pharmacy,BPharm
+Undergraduate,Health,Bachelors in Health Science,BHSc
+Undergraduate,Health,Bachelors in Dental Surgery,BDS
+Undergraduate,Health,Bachelors in Physiotherapy,BPT
+Undergraduate,Health,Bachelors in Occupational Therapy,BOT
+Undergraduate,Health,Bachelors in Public Health,BPH
+Undergraduate,Business,Bachelors of Business Administration,BBA
+Undergraduate,Business,Bachelors of Commerce,BCom
+Undergraduate,Business,Bachelors of Economics,BEcon
+Undergraduate,Business,Bachelors of Management,BMan
+Undergraduate,Business,Bachelors of Accountancy,BAcc
+Undergraduate,Business,Bachelors of Marketing,BMarketing
+Undergraduate,Business,Bachelors of Finance,BFin
+Undergraduate,Business,Bachelors of Entrepreneurship,BEnt
+Undergraduate,Business,Bachelors of International Business,BIB
+Undergraduate,Science,Bachelors of Science,BS
+Undergraduate,Science,Bachelors of Applied Science,BASc
+Undergraduate,Science,Bachelors of Engineering,BEng
+Undergraduate,Science,Bachelors of Technology,BTech
+Undergraduate,Science,Bachelors of Computer Science,BCS
+Undergraduate,Science,bachelors computer science,BCS
+Undergraduate,Science,Bachelors of Environmental Science,BEnvSc
+Undergraduate,Science,Bachelors of Geology,BGeo
+Undergraduate,Science,Bachelors of Mathematics,BMath
+Undergraduate,Health,Bachelors of Nursing,BN
+Undergraduate,Health,Bachelors of Medicine,MBBS
+Undergraduate,Health,Bachelors of Pharmacy,BPharm
+Undergraduate,Health,Bachelors of Health Science,BHSc
+Undergraduate,Health,Bachelors of Dental Surgery,BDS
+Undergraduate,Health,Bachelors of Physiotherapy,BPT
+Undergraduate,Health,Bachelors of Occupational Therapy,BOT
+Undergraduate,Health,Bachelors of Public Health,BPH
+Undergraduate,Arts,Bachelor in Arts,BA
+Undergraduate,Arts,Bachelor in Fine Arts,BFA
+Undergraduate,Arts,Bachelor in Music,BM
+Undergraduate,Arts,Bachelor in Performing Arts,BPA
+Undergraduate,Arts,Bachelor in Humanities,BH
+Undergraduate,Arts,Bachelor in Liberal Arts,BLA
+Undergraduate,Arts,Bachelor in Visual Arts,BVA
+Undergraduate,Arts,Bachelor in Design,BDes
+Undergraduate,Arts,Bachelor in Fashion Design,BFD
+Undergraduate,Business,Bachelor in Business Administration,BBA
+Undergraduate,Business,Bachelor in Commerce,BCom
+Undergraduate,Business,Bachelor in Economics,BEcon
+Undergraduate,Business,Bachelor in Management,BMan
+Undergraduate,Business,Bachelor in Accountancy,BAcc
+Undergraduate,Business,Bachelor in Marketing,BMarketing
+Undergraduate,Business,Bachelor in Finance,BFin
+Undergraduate,Business,Bachelor in Entrepreneurship,BEnt
+Undergraduate,Business,Bachelor in International Business,BIB
+Undergraduate,Science,Bachelor in Science,BS
+Undergraduate,Science,Bachelor in Applied Science,BASc
+Undergraduate,Science,Bachelor in Engineering,BEng
+Undergraduate,Science,Bachelor in Technology,BTech
+Undergraduate,Science,Bachelor in Computer Science,BCS
+Undergraduate,Science,Bachelor in Environmental Science,BEnvSc
+Undergraduate,Science,Bachelor in Geology,BGeo
+Undergraduate,Science,Bachelor in Mathematics,BMath
+Undergraduate,Health,Bachelor in Nursing,BN
+Undergraduate,Health,Bachelor in Medicine,MBBS
+Undergraduate,Health,Bachelor in Pharmacy,BPharm
+Undergraduate,Health,Bachelor in Health Science,BHSc
+Undergraduate,Health,Bachelor in Dental Surgery,BDS
+Undergraduate,Health,Bachelor in Physiotherapy,BPT
+Undergraduate,Health,Bachelor in Occupational Therapy,BOT
+Undergraduate,Health,Bachelor in Public Health,BPH
+Undergraduate,Arts,Bachelor of Arts,BA
+Undergraduate,Arts,Bachelor of Fine Arts,BFA
+Undergraduate,Arts,Bachelor of Music,BM
+Undergraduate,Arts,Bachelor of Performing Arts,BPA
+Undergraduate,Arts,Bachelor of Humanities,BH
+Undergraduate,Arts,Bachelor of Liberal Arts,BLA
+Undergraduate,Arts,Bachelor of Visual Arts,BVA
+Undergraduate,Arts,Bachelor of Design,BDes
+Undergraduate,Arts,Bachelor of Fashion Design,BFD
+Undergraduate,Business,Bachelor of Business Administration,BBA
+Undergraduate,Business,Bachelor of Commerce,BCom
+Undergraduate,Business,Bachelor of Economics,BEcon
+Undergraduate,Business,Bachelor of Management,BMan
+Undergraduate,Business,Bachelor of Accountancy,BAcc
+Undergraduate,Business,Bachelor of Marketing,BMarketing
+Undergraduate,Business,Bachelor of Finance,BFin
+Undergraduate,Business,Bachelor of Entrepreneurship,BEnt
+Undergraduate,Business,Bachelor of International Business,BIB
+Undergraduate,Science,Bachelor of Science,BS
+Undergraduate,Science,Bachelor of Applied Science,BASc
+Undergraduate,Science,Bachelor of Engineering,BEng
+Undergraduate,Science,Bachelor of Technology,BTech
+Undergraduate,Science,Bachelor of Computer Science,BCS
+Undergraduate,Science,bachelor computer science,BCS
+Undergraduate,Science,Bachelor of Environmental Science,BEnvSc
+Undergraduate,Science,Bachelor of Geology,BGeo
+Undergraduate,Science,Bachelor of Mathematics,BMath
+Undergraduate,Health,Bachelor of Nursing,BN
+Undergraduate,Health,Bachelor of Medicine,MBBS
+Undergraduate,Health,Bachelor of Pharmacy,BPharm
+Undergraduate,Health,Bachelor of Health Science,BHSc
+Undergraduate,Health,Bachelor of Dental Surgery,BDS
+Undergraduate,Health,Bachelor of Physiotherapy,BPT
+Undergraduate,Health,Bachelor of Occupational Therapy,BOT
+Undergraduate,Health,Bachelor of Public Health,BPH
+Undergraduate,Arts,Bachelor's in Arts,BA
+Undergraduate,Arts,Bachelor's in Fine Arts,BFA
+Undergraduate,Arts,Bachelor's in Music,BM
+Undergraduate,Arts,Bachelor's in Performing Arts,BPA
+Undergraduate,Arts,Bachelor's in Humanities,BH
+Undergraduate,Arts,Bachelor's in Liberal Arts,BLA
+Undergraduate,Arts,Bachelor's in Visual Arts,BVA
+Undergraduate,Arts,Bachelor's in Design,BDes
+Undergraduate,Arts,Bachelor's in Fashion Design,BFD
+Undergraduate,Business,Bachelor's in Business Administration,BBA
+Undergraduate,Business,Bachelor's in Commerce,BCom
+Undergraduate,Business,Bachelor's in Economics,BEcon
+Undergraduate,Business,Bachelor's in Management,BMan
+Undergraduate,Business,Bachelor's in Accountancy,BAcc
+Undergraduate,Business,Bachelor's in Marketing,BMarketing
+Undergraduate,Business,Bachelor's in Finance,BFin
+Undergraduate,Business,Bachelor's in Entrepreneurship,BEnt
+Undergraduate,Business,Bachelor's in International Business,BIB
+Undergraduate,Science,Bachelor's in Science,BS
+Undergraduate,Science,Bachelor's in Applied Science,BASc
+Undergraduate,Science,Bachelor's in Engineering,BEng
+Undergraduate,Science,Bachelor's in Technology,BTech
+Undergraduate,Science,Bachelor's in Computer Science,BCS
+Undergraduate,Science,Bachelor's in Environmental Science,BEnvSc
+Undergraduate,Science,Bachelor's in Geology,BGeo
+Undergraduate,Science,Bachelor's in Mathematics,BMath
+Undergraduate,Health,Bachelor's in Nursing,BN
+Undergraduate,Health,Bachelor's in Medicine,MBBS
+Undergraduate,Health,Bachelor's in Pharmacy,BPharm
+Undergraduate,Health,Bachelor's in Health Science,BHSc
+Undergraduate,Health,Bachelor's in Dental Surgery,BDS
+Undergraduate,Health,Bachelor's in Physiotherapy,BPT
+Undergraduate,Health,Bachelor's in Occupational Therapy,BOT
+Undergraduate,Health,Bachelor's in Public Health,BPH
+Undergraduate,Business,Bachelor's of Business Administration,BBA
+Undergraduate,Business,Bachelor's of Commerce,BCom
+Undergraduate,Business,Bachelor's of Economics,BEcon
+Undergraduate,Business,Bachelor's of Management,BMan
+Undergraduate,Business,Bachelor's of Accountancy,BAcc
+Undergraduate,Business,Bachelor's of Marketing,BMarketing
+Undergraduate,Business,Bachelor's of Finance,BFin
+Undergraduate,Business,Bachelor's of Entrepreneurship,BEnt
+Undergraduate,Business,Bachelor's of International Business,BIB
+Undergraduate,Science,Bachelor's of Science,BS
+Undergraduate,Science,Bachelor's of Applied Science,BASc
+Undergraduate,Science,Bachelor's of Engineering,BEng
+Undergraduate,Science,Bachelor's of Technology,BTech
+Undergraduate,Science,Bachelor's of Computer Science,BCS
+Undergraduate,Science,bachelor's computer science,BCS
+Undergraduate,Science,Bachelor's of Environmental Science,BEnvSc
+Undergraduate,Science,Bachelor's of Geology,BGeo
+Undergraduate,Science,Bachelor's of Mathematics,BMath
+Undergraduate,Health,Bachelor's of Nursing,BN
+Undergraduate,Health,Bachelor's of Medicine,MBBS
+Undergraduate,Health,Bachelor's of Pharmacy,BPharm
+Undergraduate,Health,Bachelor's of Health Science,BHSc
+Undergraduate,Health,Bachelor's of Dental Surgery,BDS
+Undergraduate,Health,Bachelor's of Physiotherapy,BPT
+Undergraduate,Health,Bachelor's of Occupational Therapy,BOT
+Undergraduate,Health,Bachelor's of Public Health,BPH
+Graduate,Arts,Master in Arts,MA
+Graduate,Arts,Master in Fine Arts,MFA
+Graduate,Arts,Master in Music,MM
+Graduate,Arts,Master in Performing Arts,MPA
+Graduate,Arts,Master in Humanities,MH
+Graduate,Arts,Master in Liberal Arts,MLA
+Graduate,Arts,Master in Visual Arts,MVA
+Graduate,Arts,Master in Design,MDes
+Graduate,Arts,Master in Fashion Design,MFD
+Graduate,Business,Master in Business Administration,MBA
+Graduate,Business,Master in Management,MMgt
+Graduate,Business,Master in Finance,MFin
+Graduate,Business,Master in Marketing,MMkt
+Graduate,Business,Master in Accounting,MAcc
+Graduate,Business,Master in Human Resources,MHR
+Graduate,Business,Master in Supply Chain Management,MSCM
+Graduate,Business,Master in International Business,MIB
+Graduate,Science,Master in Science,MS
+Graduate,Science,Master in Applied Science,MASc
+Graduate,Science,Master in Engineering,MEng
+Graduate,Science,Master in Technology,MTech
+Graduate,Science,Master in Computer Science,MCS
+Graduate,Science,Master in Environmental Science,MEnvSc
+Graduate,Science,Master in Geology,MGeo
+Graduate,Science,Master in Mathematics,MMath
+Graduate,Health,Master in Public Health,MPH
+Graduate,Health,Master in Nursing,MN
+Graduate,Health,Master in Pharmacy,MPharm
+Graduate,Health,Master in Dental Surgery,MDS
+Graduate,Health,Master in Physiotherapy,MPT
+Graduate,Health,Master in Occupational Therapy,MOT
+Graduate,Health,Master in Health Administration,MHA
+Graduate,Health,Master in Clinical Psychology,MCP
+Graduate,Arts,Master of Arts,MA
+Graduate,Arts,Master of Fine Arts,MFA
+Graduate,Arts,Master of Music,MM
+Graduate,Arts,Master of Performing Arts,MPA
+Graduate,Arts,Master of Humanities,MH
+Graduate,Arts,Master of Liberal Arts,MLA
+Graduate,Arts,Master of Visual Arts,MVA
+Graduate,Arts,Master of Design,MDes
+Graduate,Arts,Master of Fashion Design,MFD
+Graduate,Business,Master of Business Administration,MBA
+Graduate,Business,Master of Management,MMgt
+Graduate,Business,Master of Finance,MFin
+Graduate,Business,Master of Marketing,MMkt
+Graduate,Business,Master of Accounting,MAcc
+Graduate,Business,Master of Human Resources,MHR
+Graduate,Business,Master of Supply Chain Management,MSCM
+Graduate,Business,Master of International Business,MIB
+Graduate,Science,Master of Science,MS
+Graduate,Science,Master of Applied Science,MASc
+Graduate,Science,Master of Engineering,MEng
+Graduate,Science,Master of Technology,MTech
+Graduate,Science,Master of Computer Science,MCS
+Graduate,Science,Master of Environmental Science,MEnvSc
+Graduate,Science,Master of Geology,MGeo
+Graduate,Science,Master of Mathematics,MMath
+Graduate,Health,Master of Public Health,MPH
+Graduate,Health,Master of Nursing,MN
+Graduate,Health,Master of Pharmacy,MPharm
+Graduate,Health,Master of Dental Surgery,MDS
+Graduate,Health,Master of Physiotherapy,MPT
+Graduate,Health,Master of Occupational Therapy,MOT
+Graduate,Health,Master of Health Administration,MHA
+Graduate,Health,Master of Clinical Psychology,MCP
+Doctorate,Arts,Doctor of Philosophy,PhD
+Doctorate,Arts,Doctor of Fine Arts,DFA
+Doctorate,Arts,Doctor of Education,EdD
+Doctorate,Arts,Doctor of Music,DMus
+Doctorate,Arts,Doctor of Humanities,DHum
+Doctorate,Arts,Doctor of Liberal Arts,DLA
+Doctorate,Arts,Doctor of Visual Arts,DVA
+Doctorate,Arts,Doctor of Design,DDes
+Doctorate,Arts,Doctor of Fashion Design,DFD
+Doctorate,Business,Doctor of Business Administration,DBA
+Doctorate,Business,Doctor of Management,DMgt
+Doctorate,Business,Doctor of Economics,DEcon
+Doctorate,Business,Doctor of Finance,DFin
+Doctorate,Business,Doctor of Marketing,DMkt
+Doctorate,Business,Doctor of Accounting,DAcc
+Doctorate,Business,Doctor of Human Resources,DHR
+Doctorate,Business,Doctor of Supply Chain Management,DSCM
+Doctorate,Science,Doctor of Science,DSc
+Doctorate,Science,Doctor of Engineering,DEng
+Doctorate,Science,Doctor of Technology,DTech
+Doctorate,Science,Doctor of Computer Science,DCS
+Doctorate,Science,Doctor of Environmental Science,DEnvSc
+Doctorate,Science,Doctor of Geology,DGeo
+Doctorate,Science,Doctor of Mathematics,DMath
+Doctorate,Health,Doctor of Medicine,MD
+Doctorate,Health,Doctor of Dental Surgery,DDS
+Doctorate,Health,Doctor of Pharmacy,PharmD
+Doctorate,Health,Doctor of Veterinary Medicine,DVM
+Doctorate,Health,Doctor of Physical Therapy,DPT
+Doctorate,Health,Doctor of Occupational Therapy,DOT
+Doctorate,Health,Doctor of Public Health,DrPH
+Doctorate,Health,Doctor of Clinical Psychology,PsyD

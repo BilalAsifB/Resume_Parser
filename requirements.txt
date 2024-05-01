@@ -1,0 +1,4 @@
+pdfminer==20191125
+pandas==2.2.2
+spacy==3.7.4
+Django==5.0.4

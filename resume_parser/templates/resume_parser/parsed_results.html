@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parsed Results</title>
+    <style>
+        body {
+            background-image: url("{% static 'background7.jpg' %}");
+            
+            background-position: center;
+            text-align: center; /* Center-align all content */
+        }
+        h1, h2 { /* Center-align headings */
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        ul {
+            list-style-type: none; 
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px; /* Add some spacing between list items */
+        }
+    </style>
+</head>
+<body>
+    <h1>Parsed Results</h1>
+    
+    <h2>Selected Resumes:</h2>
+    <ul>
+        {% for file_name in file_names %}
+            <li><a href="{{ file_name.url }}" target="_blank">{{ file_name.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <div class="footer">
+        @ Resume Parser 2024. All rights reserved.
+    </div>
+</body>
+</html>
